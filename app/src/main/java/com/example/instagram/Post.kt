@@ -27,7 +27,7 @@ class Post: ParseObject() {
         put(KEY_IMAGE, parseFile)
     }
 
-    fun getUSer(): ParseUser?{
+    fun getUser(): ParseUser?{
         return getParseUser(KEY_USER)
     }
 
